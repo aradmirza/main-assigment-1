@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    font-family: Work Sans;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+.second-btn {
+    margin-top: 32px;
+    padding: 10px 15px;
+    color: #f15b22;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 20px;
+}
+
+/* header section styles */
+
+.header {
+    background-image: url('./images/banner/banner1.png');
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+
+}
+.header-container {
+    text-align: right;
+    padding: 200px 200px;
+    margin-left: 300px;
+}
+
+.header-container .title {
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.header-container .description {
+    padding-left: 50px;
+}
+.btn-primary {
+    margin-top: 32px;
+    padding: 10px 15px;
+    background-color: #f15b22;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* failure section styles */
+
+.failure-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 200px;
+}
+.failure-section .img-container img{
+    width: 400px;
+}
+.failure-section .info-container {
+    padding-left: 100px;
+
+}
+.failure-section .title {
+    font-size: 40px;
+    font-weight: 600;
+}
+.failure-section .description {
+    font-size: 16px;
+    padding-top: 24px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.failure-list img {
+    width: 20px
+}
+.failure-list {
+    list-style: none;
+    padding-top: 16px;
+}
+
+
+/* plan section */
+.plan-section {
+    padding: 0 200px;
+    
+}
+.plan-section .main-title {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.plan-section .info-container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.info {
+    margin: 0 50px;
+    text-align: center;
+}
+.info .icon {
+    width: 60px;
+}
+.info .title {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.inspiration {
+    height: 300px;
+    margin: 130px 0;
+    padding: auto 60px;
+    background-image: url('./images/watch.png'), url('./images/gradient3.png');
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.ins-info {
+    padding: 60px 60px;
+    margin-left: 200px;
+    
+}
+.inspiration .ins-info .section-title {
+    color: white;
+}
+.inspiration .ins-info button {
+    margin-top: 24px;
+}
+
+
+/* footer */
+footer {
+    background-color: #151414;
+    padding: 130px 200px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.future {
+    padding-right: 330px;
+}
+.future p {
+    margin-top: 24px;
+}
+.subscribe h4 {
+    margin-bottom: 24px;
+}
+form input {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+.social-icons {
+    margin-top: 24px;
+}
+.social-icons img {
+    padding-right: 10px;
+    width: 40px;
+}
